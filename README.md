@@ -13,7 +13,7 @@ sudo ./PocketDesk/PocketDESK.sh
 
 2. Clone this repo and copy files, you can also copy them manually. It is important to do this before you reboot, because your PocketCHIP probably wont boot successfully without the xorg config!
 ```
-`git clone https://github.com/v1nc/PocketCHIP-i3wm
+git clone https://github.com/v1nc/PocketCHIP-i3wm
 sudo cp -R PocketCHIP-i3wm/* /
 ```
 3. Set permissions for binaries:
