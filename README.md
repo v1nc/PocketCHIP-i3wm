@@ -11,7 +11,7 @@ git clone https://github.com/AllGray/PocketDesk.git
 sudo ./PocketDesk/PocketDESK.sh
 ```
 
-2. Clone this repo and copy files, you can also copy them manually. It is important to do this before you reboot, because your PocketCHIP probably wont boot successfully without the xorg config!
+2. Clone this repo and copy files, you can also copy them manually. __It is important to do this before you reboot, because your PocketCHIP probably wont boot successfully without the xorg config!__
 ```
 git clone https://github.com/v1nc/PocketCHIP-i3wm
 sudo cp -R PocketCHIP-i3wm/* /
