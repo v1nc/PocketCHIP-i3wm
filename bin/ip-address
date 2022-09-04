@@ -1,0 +1,10 @@
+#!/bin/bash
+# source: https://github.com/Anachron/i3blocks/blob/master/blocks/ip-address
+# usually works out of the box with i3blocks, but not always
+IP_ADDRESS=$(ip route get 1 | awk '{print $NF;exit}')
+
+if [[ "${IP_ADDRESS}" != "" ]]; then
+  echo "${IP_ADDRESS}"
+  echo "${IP_ADDRESS}"
+  echo ""
+fi
